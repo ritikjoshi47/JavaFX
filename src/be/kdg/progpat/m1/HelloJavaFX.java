@@ -18,6 +18,10 @@ public class HelloJavaFX extends Application {
         Label helloLabel = new Label("Hello JavaFX!");
         BorderPane root = new BorderPane(helloLabel);
         Scene scene = new Scene(root);
+        primaryStage.setWidth(500);
+        primaryStage.setHeight(600);
+        primaryStage.setResizable(false);
+        primaryStage.setTitle("Hey! This is the title");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
