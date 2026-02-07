@@ -20,8 +20,9 @@ public class HelloJavaFX extends Application {
         Scene scene = new Scene(root);
         primaryStage.setWidth(500);
         primaryStage.setHeight(600);
-        primaryStage.setResizable(false);
+        primaryStage.setResizable(true);
         primaryStage.setTitle("Hey! This is the title");
+        primaryStage.setMaxWidth(700);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
