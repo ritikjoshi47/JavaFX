@@ -21,7 +21,7 @@ public class Main extends Application {
         primaryStage.setWidth(300);
         primaryStage.setHeight(450);
         primaryStage.setScene(new Scene(view));
-        ScreenReaderPresenter presenter = new ScreenReaderPresenter(model, view);
+        new ScreenReaderPresenter(model, view);
         primaryStage.show();
     }
 }
