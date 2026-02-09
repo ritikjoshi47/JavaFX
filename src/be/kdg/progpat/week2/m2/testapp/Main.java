@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage){
         TestAppModel model = new TestAppModel();
-        LabelView1 view = new LabelView1();
+        LabelView2 view = new LabelView2();
         primaryStage.setScene(new Scene(view));
         primaryStage.setTitle("Background");
         new TestAppPresenter(model, view);
