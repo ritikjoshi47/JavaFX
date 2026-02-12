@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage){
         TestAppModel model = new TestAppModel();
-        CheckBoxView view = new CheckBoxView();
+        TestAppView view = new TestAppView();
         primaryStage.setScene(new Scene(view));
         primaryStage.setTitle("Background");
         new TestAppPresenter(model, view);
