@@ -1,7 +1,8 @@
 package be.kdg.progpat.week2.m2.testapp;
 
 import be.kdg.progpat.week2.m2.testapp.model.TestAppModel;
-import be.kdg.progpat.week2.m2.testapp.view.*;
+import be.kdg.progpat.week2.m2.testapp.view.MenuBarView;
+import be.kdg.progpat.week2.m2.testapp.view.TestAppPresenter;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -13,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage){
         TestAppModel model = new TestAppModel();
-        TestAppView view = new TestAppView();
+        MenuBarView view = new MenuBarView();
         primaryStage.setScene(new Scene(view));
         primaryStage.setTitle("Background");
         new TestAppPresenter(model, view);
