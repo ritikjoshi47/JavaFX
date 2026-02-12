@@ -4,9 +4,9 @@ import be.kdg.progpat.week2.m2.testapp.model.TestAppModel;
 
 public class TestAppPresenter {
     private TestAppModel model;
-    private MenuBarView view;
+    private ImageViewView view;
 
-    public TestAppPresenter(TestAppModel model, MenuBarView view) {
+    public TestAppPresenter(TestAppModel model, ImageViewView view) {
         this.model = model;
         this.view = view;
         addEventHandlers();
