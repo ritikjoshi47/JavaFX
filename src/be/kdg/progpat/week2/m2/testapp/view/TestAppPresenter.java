@@ -4,9 +4,9 @@ import be.kdg.progpat.week2.m2.testapp.model.TestAppModel;
 
 public class TestAppPresenter {
     private TestAppModel model;
-    private CheckBoxView view;
+    private TestAppView view;
 
-    public TestAppPresenter(TestAppModel model, CheckBoxView view) {
+    public TestAppPresenter(TestAppModel model, TestAppView view) {
         this.model = model;
         this.view = view;
         addEventHandlers();
