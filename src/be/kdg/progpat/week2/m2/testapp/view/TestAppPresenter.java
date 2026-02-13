@@ -12,9 +12,9 @@ import static javafx.scene.control.Alert.AlertType.CONFIRMATION;
 
 public class TestAppPresenter {
     private TestAppModel model;
-    private ImageViewView view;
+    private QuizView view;
 
-    public TestAppPresenter(TestAppModel model, ImageViewView view) {
+    public TestAppPresenter(TestAppModel model, QuizView view) {
         this.model = model;
         this.view = view;
         addEventHandlers();
